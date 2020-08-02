@@ -1,0 +1,22 @@
+{
+  "name": "typescript-drum-kit",
+  "version": "0.1.0",
+  "description": "Play the drums in your browser using typescript. Based on javascript-30 course be Wes Bos",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"dist/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Jesus Diaz Manzo",
+  "url": "git+https://github.com/drconopoima/typescript-drum-kit",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/prettier": "^2.0.2",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7"
+  }
+}
